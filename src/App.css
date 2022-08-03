@@ -8,7 +8,6 @@
 }
 
 .app {
-    height: 100%;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -152,6 +151,12 @@ button[type='submit'] img {
     font-size: .78rem;
 }
 
+.pipe {
+    font-size: 2rem;
+    color: #fff;
+    font-weight: lighter;
+}
+
 .heading {
     width: 85%;
     font-weight: 500;
@@ -173,5 +178,78 @@ button[type='submit'] img {
 
     display: block;
     background: #000 !important;
+}
+select {
+    color: #fff;
+    border: 0;
+    background: transparent;
+    font-weight: inherit;
+}
+
+
+.grid {
+    display: flex;
+    justify-content:space-between;
+    width: 85%;
+    margin-top: 2rem;
+    height: 31rem;
+}
+
+.grid .col1 {
+    width: 30%;
+    background: url('./imgs/brecho-de-luxo-acessorios.webp');
+
+    background-size: 100%;
+}
+
+.grid .col2 {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 68.5%;
+
+}
+
+.grid .col2 .line1 {
+    display: flex;
+    justify-content:space-between;
+    width: 100%;
+    height: 48%;
+}
+
+.grid .col2 .line1 .blk1 {
+    display: flex;
+    width: 56%;
+    height: 100%;
+    background: url('./imgs/brecho-de-luxo-bolsas.webp');
+}
+
+.grid .col2 .line1 .blk2 {
+    display: flex;
+    width:42%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: 300;
+    height:100%;
+    background: #dda248;
+    color: #fff;
+
+}
+.box-content {
+    font-size: .9rem;
+    padding: 10px;
+}
+.box-title {
+    font-size: 1.7rem;
+    line-height: 2rem;
+}
+
+.grid .col2 .line2 {
+    display: flex;
+    position: relative;
+    height: 49%;
+    background: url('./imgs/brecho-de-luxo-roupas.webp') no-repeat;
+    background-size: contain;
 }
 

@@ -2,11 +2,6 @@ import { useState } from 'react'
 import './App.css'
 import Slider from 'react-slick'
 
-interface Props{
-    className: string;
-    style: string;
-    onClick: string;
-}
 
 function NextArrow(props: any){
 
@@ -17,7 +12,6 @@ function NextArrow(props: any){
             style = {{...style, display: 'block', background: '#000', color: '#000'}}
         onClick={onClick}
         >
-
         </div>
     )
 
@@ -82,7 +76,7 @@ function App() {
             <div className='actionbtns'>
                 <ul>
                     <li>INÍCIO</li>
-                    <li>PRODUTOS</li>
+                    <li><select><option>PRODUTOS</option></select></li>
                     <li>QUEM SOMOS</li>
 
                 </ul>
@@ -102,7 +96,7 @@ function App() {
 
                         <img src = {'./imgs/ico-bag.svg'} alt='image unavaiable'/>
                     </button>
-                <span>|</span>
+                <span className="pipe">|</span>
                 <a href='#'>Cadastre-se</a>
                 <a href='#'>Acessar</a>
 
@@ -136,6 +130,24 @@ function App() {
                 }
             </Slider>
                 </div>
+
+        <div className = "grid">
+            <div className="col1">
+            </div>
+            <div className="col2">
+                <div className="line1">
+                    <div className="blk1">
+                    </div>
+                    <div className="blk2">
+                        <span className="box-title">VENDA SUAS PEÇAS <br/>CONOSCO</span>
+                        <span className="box-content">Envie fotos de duas peças e saiba quanto pode ganhar</span>
+                    </div>
+                </div>
+                <div className="line2">
+                </div>
+            </div>
+
+        </div>
 
 
 
