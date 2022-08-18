@@ -35,7 +35,7 @@
 
 }
 
-.advisor button {
+.advisor .adv-btn {
     background: #fff;
     height: 100%;
     width:10rem;
@@ -189,19 +189,41 @@ select {
 
 .grid {
     display: flex;
+    position: relative;
     justify-content:space-between;
     width: 85%;
     margin-top: 2rem;
     height: 31rem;
+    
 }
 
-.grid .col1 {
+.grid .col1-keeper {
     display: flex;
+
     width: 30%;
     background: url('./imgs/brecho-de-luxo-acessorios.webp');
 
     background-size: 100%;
 }
+
+.grid .col1-over {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    background-color: rgba(0, 0, 0, .4);
+    height: 31rem;
+    width: 30%;
+    opacity: 1;
+    transition: 0.5s ease-in-out;
+    
+}
+
+.grid .col1-over:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
 
 .grid .col2 {
     display: flex;
@@ -268,3 +290,21 @@ select {
     padding-block: 12px;
    
 }
+
+.col1 {
+    display: flex;
+    
+    width: 100%;
+    height: 100%;
+}
+
+.info {
+    width: 9rem;
+    height: 3rem;
+    border-radius: 0;
+    font-weight: 700;
+    font-size: 12px;
+    outline: none;
+}
+
+

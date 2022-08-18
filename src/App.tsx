@@ -63,7 +63,7 @@ function App() {
 
     </p>
 
-        <button>
+        <button className='adv-btn'>
             QUERO VENDER
         </button>
         </div>
@@ -132,8 +132,10 @@ function App() {
                 </div>
 
         <div className = "grid">
-            <div className="col1">
-                <span className='tag'>ACESSÓRIOS</span>
+            <div className='col1-keeper'>
+                <div className="col1"><span className='tag'>ACESSÓRIOS</span></div>
+                <div className='col1-over'><button className='info'>VER PRODUTOS</button></div>
+                
             </div>
             <div className="col2">
                 
