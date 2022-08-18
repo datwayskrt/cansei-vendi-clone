@@ -133,10 +133,13 @@ function App() {
 
         <div className = "grid">
             <div className="col1">
+                <span className='tag'>ACESSÓRIOS</span>
             </div>
             <div className="col2">
+                
                 <div className="line1">
                     <div className="blk1">
+                        <span className='tag'>BOLSAS</span>
                     </div>
                     <div className="blk2">
                         <span className="box-title">VENDA SUAS PEÇAS <br/>CONOSCO</span>
@@ -144,6 +147,7 @@ function App() {
                     </div>
                 </div>
                 <div className="line2">
+                    <span className='tag'>ROUPAS</span>
                 </div>
             </div>
 

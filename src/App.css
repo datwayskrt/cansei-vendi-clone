@@ -196,6 +196,7 @@ select {
 }
 
 .grid .col1 {
+    display: flex;
     width: 30%;
     background: url('./imgs/brecho-de-luxo-acessorios.webp');
 
@@ -217,11 +218,19 @@ select {
     height: 48%;
 }
 
+.col1, .blk1, .line2 {
+    align-items: flex-end;
+    justify-content: flex-end;
+    color: #fff;
+    font-weight: 600;
+}
+
 .grid .col2 .line1 .blk1 {
     display: flex;
     width: 56%;
     height: 100%;
     background: url('./imgs/brecho-de-luxo-bolsas.webp');
+    
 }
 
 .grid .col2 .line1 .blk2 {
@@ -253,3 +262,9 @@ select {
     background-size: contain;
 }
 
+.tag {
+    background: #000; 
+    padding: 3rem;
+    padding-block: 12px;
+   
+}
