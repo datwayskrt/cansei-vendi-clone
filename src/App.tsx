@@ -140,8 +140,13 @@ function App() {
             <div className="col2">
                 
                 <div className="line1">
+                    <div className='blk1-keeper'>
                     <div className="blk1">
                         <span className='tag'>BOLSAS</span>
+                    </div>
+                    <div className="blk1-over">
+                        <button className="info">VER PRODUTOS</button>
+                    </div>
                     </div>
                     <div className="blk2">
                         <span className="box-title">VENDA SUAS PEÇAS <br/>CONOSCO</span>
