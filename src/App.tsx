@@ -158,8 +158,13 @@ function App() {
                     </div>
                     </div>
                 </div>
+                <div className="line2-keeper">
                 <div className="line2">
                     <span className='tag'>ROUPAS</span>
+                </div>
+                <div className="line2-over">
+                    <button className='info'>VER PRODUTOS</button>
+                </div>
                 </div>
             </div>
 
