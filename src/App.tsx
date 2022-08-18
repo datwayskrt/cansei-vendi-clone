@@ -148,9 +148,14 @@ function App() {
                         <button className="info">VER PRODUTOS</button>
                     </div>
                     </div>
+                    <div className='blk2-keeper'>
                     <div className="blk2">
                         <span className="box-title">VENDA SUAS PEÇAS <br/>CONOSCO</span>
                         <span className="box-content">Envie fotos de duas peças e saiba quanto pode ganhar</span>
+                    </div>
+                    <div className="blk2-over">
+                        <button className='info'>QUERO VENDER</button>
+                    </div>
                     </div>
                 </div>
                 <div className="line2">
